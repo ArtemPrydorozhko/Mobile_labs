@@ -18,9 +18,6 @@ class InputFragment: Fragment() {
     private var author: String = ""
     private var year: String = ""
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -40,7 +37,7 @@ class InputFragment: Fragment() {
 
         header.add(getString(R.string.authors_title))
         body.add(authors)
-//        val group1 = requireView().findViewById<ExpandableListView>(R.id.group1)
+
         group1.setAdapter(ExpandableListAdapter(requireContext(), header, body))
         group1.setOnChildClickListener { parent, v, groupPosition, childPosition, id ->
             author = body[groupPosition].get(childPosition)

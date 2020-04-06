@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         showFragments()
     }
 
-    fun showFragments() {
+    private fun showFragments() {
         val transaction = supportFragmentManager.beginTransaction()
         val inputFragment = InputFragment()
         val outputFragment = OutputFragment()
