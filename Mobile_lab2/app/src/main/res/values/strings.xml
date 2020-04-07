@@ -7,4 +7,9 @@
     <string name="author5_name">author5</string>
     <string name="authors_title">Authors</string>
     <string name="warning_message">please select author and year</string>
+    <string name="year1">2000</string>
+    <string name="year2">2001</string>
+    <string name="year3">2002</string>
+    <string name="year4">2003</string>
+    <string name="ok_btn">OK</string>
 </resources>

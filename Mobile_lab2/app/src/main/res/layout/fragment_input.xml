@@ -28,25 +28,25 @@
             android:id="@+id/radioButton4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="2000" />
+            android:text="@string/year1" />
 
         <RadioButton
             android:id="@+id/radioButton3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="2001" />
+            android:text="@string/year2" />
 
         <RadioButton
             android:id="@+id/radioButton2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="2002" />
+            android:text="@string/year3" />
 
         <RadioButton
             android:id="@+id/radioButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="2003" />
+            android:text="@string/year4" />
     </RadioGroup>
 
     <Button
@@ -54,7 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="172dp"
-        android:text="OK"
+        android:text="@string/ok_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.829"
         app:layout_constraintStart_toStartOf="parent"
